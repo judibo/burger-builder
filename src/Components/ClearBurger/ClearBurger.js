@@ -10,6 +10,4 @@ class ClearBurger extends Component {
     )
   }
 }
-
-
 export default ClearBurger;

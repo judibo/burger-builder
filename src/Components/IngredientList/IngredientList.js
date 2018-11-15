@@ -6,7 +6,7 @@ import IngredientForm from '../Ingredient/IngredientForm';
 class IngredientList extends Component {
 
     render() {
-        var mappedIngredient = this.props.ingredients.map( ingredient => <Ingredient ingredient={ingredient} handleAddIngredient={this.props.handleAddIngredient}/>)
+        var mappedIngredient = this.props.ingredients.map( ingredient => <Ingredient ingredient={ingredient} handleAddIngredient={() => this.props.handleAddIngredient(ingredient)}/>)
         return (
             <div className="component">
             <h3>Ingredient List</h3>

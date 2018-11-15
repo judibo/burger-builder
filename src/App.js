@@ -35,7 +35,7 @@ class App extends Component {
   }
 
   handleNewIngredient(newIngredient) {
-		var ingredients = this.state.ingredients.slice();
+		var ingredients = this.state.ingredients;
 		ingredients.push(newIngredient);
 		this.setState({ingredients: ingredients})
 	}

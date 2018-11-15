@@ -15,5 +15,4 @@ class BurgerPane extends Component {
     )
   }
 }
-
 export default BurgerPane;
